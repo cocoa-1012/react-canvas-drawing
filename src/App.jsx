@@ -173,7 +173,6 @@ function App() {
     canvas.on("object:moving", function (o) {
       console.log("down");
       isDrawing = false;
-      // disable();
     });
   }, []);
 

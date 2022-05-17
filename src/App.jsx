@@ -79,7 +79,6 @@ function App() {
     }
 
     canvas.on("mouse:down", function (o) {
-      console.log("down");
       type !== "" ? (isDrawing = true) : console.log("type=null");
       var pointer = canvas.getPointer(o.e);
       origX = pointer.x;
